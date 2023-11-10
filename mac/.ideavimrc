@@ -1,0 +1,7 @@
+source ~/.vimrc
+
+" Enable continuous press of navigation
+" defaults write -g ApplePressAndHoldEnabled 0
+
+map <leader>ff <Action>(GotoFile)
+map <leader>rf <Action>(RecentFiles)
